@@ -1,0 +1,5 @@
+<H1>Provincias Argentinas</H1>
+<ul class="list-group">
+    <app-provincia (clickProvincia) = "escuchaProvincia($event)"
+    *ngFor="let prov of provincias" [prov]="prov"></app-provincia>
+</ul>

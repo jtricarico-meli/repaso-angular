@@ -1,0 +1,6 @@
+<p>menu works!</p>
+<ul class="list-group">
+    <li class="list-group-item" *ngFor="let ruta of rutas">
+        <a [href]="ruta.path">{{ruta.name}}</a>
+    </li>
+</ul>
